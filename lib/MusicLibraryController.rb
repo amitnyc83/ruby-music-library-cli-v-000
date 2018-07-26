@@ -89,7 +89,7 @@ if (1..Song.all.length).include?(input)
 # # if song = Song.find_by_name(input)
 # #   # Song.all.sort{|a,b| a.name <=> b.name}[index-1]
 # end
- puts "Playing #{song.name} by #{song.artist.name}"
+ puts "Playing #{song.name} by #{song.artist.name}" if song
 end
 
 
