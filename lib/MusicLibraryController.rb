@@ -78,4 +78,11 @@ end
  end
 
 
+def play_song
+puts "Choose a song:"
+input = gets.strip 
+
+end
+
+
 end
