@@ -85,7 +85,7 @@ input = gets.strip
 if song = Song.find_by_name(input)
   list_songs
 end
-# puts "Playing #{song.name} by #{song.artist.name}"
+ puts "Playing #{song.name} by #{song.artist.name}"
 end
 
 
