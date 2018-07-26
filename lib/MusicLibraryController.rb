@@ -67,7 +67,7 @@ class MusicLibraryController
 end
 
 def list_songs_by_genre
-  puts "To list all of the songs of a particular genre, enter 'list genre'."
+  puts "Please enter the name of a genre:"
 
 end
 end
